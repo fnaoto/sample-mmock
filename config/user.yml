@@ -1,0 +1,9 @@
+request:
+  method: GET
+  path: "/user/:id"
+response:
+  statusCode: 200
+  headers:
+    Content-Type:
+    - application/json
+  body: '{"user": "{{fake.LastName}},{{fake.FirstName}}"}'
